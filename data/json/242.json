@@ -1,0 +1,8307 @@
+{
+ "ACT_PRODUCT_PREDIO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "No aplicación de agroquímicos",
+    "Manejo de especies vegetales nativas",
+    "Eficiencia en uso de recursos",
+    "Aprovechamiento de residuos naturales"
+   ],
+   "Tipo": "list"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTANOACEPTACIÓN": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "NO"
+   ]
+  },
+  "valores": null,
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PROYECTO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PRYECTO/NEGOCIO_ANIMALES.Estado": {
+  "condicion": {
+   "ACTIVOS_PRYECTO/NEGOCIO_ANIMALES.Seleccione": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PRYECTO/NEGOCIO_ESTABLECIMIENTO.Estado": {
+  "condicion": {
+   "ACTIVOS_PRYECTO/NEGOCIO_ESTABLECIMIENTO.Seleccione": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PRYECTO/NEGOCIO_HERRAMIENTAS.Estado": {
+  "condicion": {
+   "ACTIVOS_PRYECTO/NEGOCIO_HERRAMIENTAS.Seleccione": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PRYECTO/NEGOCIO_INFRAESTRUCTURA_COMERCIAL.Estado": {
+  "condicion": {
+   "ACTIVOS_PRYECTO/NEGOCIO_INFRAESTRUCTURA_COMERCIAL.Seleccione": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PRYECTO/NEGOCIO_INSUMOS.Estado": {
+  "condicion": {
+   "ACTIVOS_PRYECTO/NEGOCIO_INSUMOS.Seleccione": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PRYECTO/NEGOCIO_MAQUINARIA/EQUIPO.Estado": {
+  "condicion": {
+   "ACTIVOS_PRYECTO/NEGOCIO_MAQUINARIA/EQUIPO.Seleccione": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PROYECTO.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Bueno",
+    "Regular",
+    "Malo"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PRYECTO/NEGOCIO_ANIMALES.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Bueno",
+    "Regular",
+    "Malo"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PRYECTO/NEGOCIO_ESTABLECIMIENTO.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Bueno",
+    "Regular",
+    "Malo"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PRYECTO/NEGOCIO_HERRAMIENTAS.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Bueno",
+    "Regular",
+    "Malo"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PRYECTO/NEGOCIO_INFRAESTRUCTURA_COMERCIAL.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Bueno",
+    "Regular",
+    "Malo"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PRYECTO/NEGOCIO_INSUMOS.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Bueno",
+    "Regular",
+    "Malo"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACTIVOS_PRYECTO/NEGOCIO_MAQUINARIA/EQUIPO.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Bueno",
+    "Regular",
+    "Malo"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENT_ANIMALES": {
+  "condicion": {
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de ave.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de cerdo.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de chivo.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de cuy.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Huevos.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Leche o derivados lácteos.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Pesca o piscicultura.SELECCIÓN": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Concentrados",
+    "Vegetacion",
+    "Residuos",
+    "Forraje seco",
+    "Forraje humedo",
+    "Sales"
+   ],
+   "Tipo": "list"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENT_ANIMALES-Comment": {
+  "condicion": {
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de ave.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de cerdo.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de chivo.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de cuy.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Huevos.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Leche o derivados lácteos.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Pesca o piscicultura.SELECCIÓN": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Aromáticas/medicinales/condimentos\t.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de ave.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de cerdo.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de chivo.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de cuy.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Cereales.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Frutales de ciclo corto.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Frutales de tardío rendimiento.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Hortalizas.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Huevos.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Leche o derivados lácteos.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Leguminosas.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Musáceas.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Otro.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Pesca o piscicultura.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Recolección de alimentos silvestres para autocon.1": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALIMENTOS_PRODUCE_ACTUALMENTE.Tubérculos/raíces.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ALMACENAR_PROVISIONES": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO.Financiamiento": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO.Capacitación en temas de emprendimiento,comercialización, administración": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO.Acceso a tierra, lote o espacio": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO.Asistencia técnica": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO.Insumos o materia prima": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO.Registro de marca o codigos de barra": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO.Facturación": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO.Transporte": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO. Acceso a internet y herremientas digitales": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO.Compra de activos o maquinaria": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO.Certificaciones sanitarias y de calidad, buenas practicas, etc. (ICA, INVIMA, Secretarias Salud": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO.Apoyo para la comercialización": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_FORTALECER_PROYECTO/NEGOCIO.Apoyo en la formalización": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_REQUIERE_FORTALECER.Financiamiento": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_REQUIERE_FORTALECER.Capacitación en temas de emprendimiento, comercialización, administración": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_REQUIERE_FORTALECER.Acceso a tierra, lote o espacio": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ASPECTOS_REQUIERE_FORTALECER.Provisión de insumos": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "BARRIO": {
+  "condicion": {
+   "ZONA": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "BIENES_SERVICIOS": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CALIFICACIONPART": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Muy baja ",
+    "Baja",
+    "Regular",
+    "Alta",
+    "Muy alta"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CELULAR1": {
+  "condicion": {
+   "OtroTelefono": [
+    "a) Sí, desde un celular propio ",
+    "b) Sí, al celular de un vecino u otra persona "
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^[36]\\d{9}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CELULAR2": {
+  "condicion": {
+   "OtroTelefono": [
+    "a) Sí, desde un celular propio ",
+    "b) Sí, al celular de un vecino u otra persona "
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^[36]\\d{9}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CentroPoblado": {
+  "condicion": {
+   "ZONA": [
+    2
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{6,7})$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CODDPTOATENCION": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{0,1})$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CODMUNICIPIOATENCION": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{3,4})$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "COMERCIALIZA_PRODUCTO.Intermediario particular": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "COMERCIALIZA_PRODUCTO.Mayorista": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "COMERCIALIZA_PRODUCTO.Plaza de mercado": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "COMERCIALIZA_PRODUCTO.Mercado campesino": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "COMERCIALIZA_PRODUCTO.Consumidor final": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "COMERCIALIZA_PRODUCTO.Plataforma de comercio electrónico": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "COMERCIALIZA_PRODUCTO.Agroindustria": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "COMERCIALIZA_PRODUCTO.Almacén de cadena": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "COMERCIALIZA_PRODUCTO.Exportador": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "COMUNIDAD": {
+  "condicion": {
+   "IDCOMUNIDADHABITA": [
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   "IDTETNIA": [
+    12,
+    40
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{6,12})$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CONFLEXCOM": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Violencia entre los miembros",
+    "Abusos de poder",
+    "Diferencias ideológicas",
+    "Por delimitaciones territoriales",
+    "Otro"
+   ],
+   "Tipo": "list"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CONFLEXCOMCUAL": {
+  "condicion": {
+   "CONFLEXCOM": [
+    "Otro"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CONFLINCOM": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Violencia entre los miembros",
+    "Abusos de poder",
+    "Diferencias ideológicas",
+    "Por delimitaciones territoriales",
+    "Otro"
+   ],
+   "Tipo": "list"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CONFLINCOMCUAL": {
+  "condicion": {
+   "CONFLINCOM": [
+    "Otro"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CONOCE_RUTAS_SOLUCIONES": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "VERDADERO",
+    "FALSO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CRISIS_PREDIO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Sequía o escasez de agua",
+    "Inundaciones",
+    "ncendios forestales",
+    "Contaminación",
+    "Deslizamientos, derrumbes, remoción en masa"
+   ],
+   "Tipo": "list"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CUAL_ALIMENTO": {
+  "condicion": {
+   "ALIMENT_ANIMALES": [
+    "other"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CUAL_DONDE_VENDE_EXCEDENTE": {
+  "condicion": {
+   "DONDE_VENDE_EXCEDENTE": [
+    "Otro"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CUAL_IDCOMUNIDADHABITA": {
+  "condicion": {
+   "IDCOMUNIDADHABITA": [
+    6
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CUAL_INTRUMENTO_FINANCIERO": {
+  "condicion": {
+   "INSTRUMENTO_FINANCIERO.OTRO_INSTRUMENTO_FINANCIERO.Seleccion": [
+    1,
+    2
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "cual_tipo_organizacion": {
+  "condicion": {
+   "tipo_organizacion": [
+    "Otro"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CUALLENGUA": {
+  "condicion": {
+   "IDTETNIA": [
+    12,
+    10,
+    9,
+    40,
+    41
+   ],
+   "LENGUANATIVA": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{2,3})$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CUANTAS_PERSONAS_TRABAJAN": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CUANTO_DINERO_AHORRA": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CUENTA_TANQUE_RIEGO_AGRO": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "VERDADERO",
+    "FALSO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "CUENTA_TIERRA_PREDIO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DESEAPARTICIPAR": {
+  "condicion": null,
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DIALOGOSABERES": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DINERO_EXCEDENTES": {
+  "condicion": {
+   "QUE_HACE_EXCEDENTES_PRODUCCION_AUTOCONSUMO": [
+    "Los vende",
+    "Los intercambia"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "direccion": {
+  "condicion": {
+   "TipoEstructura": [
+    1,
+    2
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,200}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "Direccion_Rural": {
+  "condicion": {
+   "ZONA": [
+    3
+   ],
+   "TipoEstructura": [
+    3
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,200}$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "Direccion_TManzana.Barrio": {
+  "condicion": {
+   "TipoEstructura": [
+    2
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{1,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": true,
+  "excluida_PTA": false
+ },
+ "Direccion_TManzana.Manzana": {
+  "condicion": {
+   "TipoEstructura": [
+    2
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": true,
+  "excluida_PTA": false
+ },
+ "Direccion_TManzana.No_Predio": {
+  "condicion": {
+   "TipoEstructura": [
+    2
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,3})$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": true,
+  "excluida_PTA": false
+ },
+ "Direccion_TManzana.Nombre": {
+  "condicion": {
+   "TipoEstructura": [
+    2
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,10}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": true,
+  "excluida_PTA": false
+ },
+ "Direccion_TManzana.Tipo": {
+  "condicion": {
+   "TipoEstructura": [
+    2
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,10}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": true,
+  "excluida_PTA": false
+ },
+ "DireccionTipoManzana": {
+  "condicion": {
+   "TipoEstructura": [
+    2
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,200}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DireccionTipoVia": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "TipoEstructura": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,200}$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DireccionTVia.#": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "TipoEstructura": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^#$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DireccionTVia.Complemento": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "TipoEstructura": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{0,2})$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DireccionTVia.CuadranteViaGeneradora": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "TipoEstructura": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{1,100}$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DireccionTVia.LetraViaGeneradora": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "TipoEstructura": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^\\w$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DireccionTVia.LetraViaPrincipal": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "TipoEstructura": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^\\w$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DireccionTVia.NombreViaPrincipal": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "TipoEstructura": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,10}$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DireccionTVia.NumeroComplemento": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "TipoEstructura": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,2})$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DireccionTVia.NumeroPlaca": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "TipoEstructura": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,2})$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DireccionTVia.NumeroUrbanizacion": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "TipoEstructura": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,1})$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DireccionTVia.NumeroViaGeneradora": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "TipoEstructura": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,2})$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DireccionTVia.NumeroViaPrincipal": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "TipoEstructura": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,2})$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DONDE_VENDE_EXCEDENTE": {
+  "condicion": {
+   "QUE_HACE_EXCEDENTES_PRODUCCION_AUTOCONSUMO": [
+    "Los vende"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "Email": {
+  "condicion": {
+   "TieneEmail": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^[\\w\\.-]+@[\\w\\.-]+$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "FALTA_DINERO_O_OTROS_RECURSOS.Haya comido menos de lo que pensaba que debía comer:\t.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "FALTA_DINERO_O_OTROS_RECURSOS.Haya comido poca variedad de alimentos: \t.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "FALTA_DINERO_O_OTROS_RECURSOS.Haya dejado de comer durante todo un día:\t.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "FALTA_DINERO_O_OTROS_RECURSOS.Haya sentido hambre pero no comió porque no había suficiente dinero u otros recursos:\t.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "FALTA_DINERO_O_OTROS_RECURSOS.Haya tenido que dejar de desayunar, almorzar o cenar porque no habia suficiente dinero u otros recursos.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "FALTA_DINERO_O_OTROS_RECURSOS.No haya podido comer alimentos saludables y nutritivos: \t.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "FALTA_DINERO_O_OTROS_RECURSOS. Se haya preocupado por no tener suficientes alimentos para comer.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "FALTA_DINERO_O_OTROS_RECURSOS.Su hogar se haya quedado sin alimentos:\t.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "fechadiligenciaencuesta": {
+  "condicion": null,
+  "valores": {
+   "valor": "^\\d{4}-\\d{2}-\\d{2}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GENERA_EXCEDENTES": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.a) Hortalizas.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.b) Aromáticas/medicinales/condimentos\t.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.c) Frutales de ciclo corto.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.d) Musáceas.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.e) Leguminosas.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.f) Tubérculos/raíces.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.g) Frutales de tardío rendimiento.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.h) Cereales.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.i) Carne de ave.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.j) Carne de chivo.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.k) Carne de cuy.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.l) Carne de cerdo.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.m) Leche o derivados lácteos.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.n) Huevos.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.o) Pesca o piscicultura.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.p) Recolección de alimentos silvestres para autoconsumo.SELECC": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "GUSTARIA_PRODUCIR.q) Otro.SELECCIÓN": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "HOGAR_DISPONE_AGUA": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "VERDADERO",
+    "FALSO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "HOGAR_DISPONE_TIERRA": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "VERDADERO",
+    "FALSO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "HOGAR_PRESUPUESTO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "IDCOMUNIDADHABITA": {
+  "condicion": {
+   "IDTETNIA": [
+    9,
+    40,
+    41,
+    12,
+    10
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "IDCORREGIMIENTO": {
+  "condicion": {
+   "ZONA": [
+    3
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{6,7})$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "IDCORREGIMIENTO-Comment": {
+  "condicion": {
+   "ZONA": [
+    3
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "IDPROYECTO": {
+  "condicion": null,
+  "valores": {
+   "valor": "^([1-9]\\d{1,3})$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "IDPUEBLOINDIGENA": {
+  "condicion": {
+   "IDTETNIA": [
+    12
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{1,2})$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "IDTETNIA": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    12,
+    10,
+    9,
+    40,
+    41,
+    11
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "IDVEREDA": {
+  "condicion": {
+   "ZONA": [
+    3
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{6,7})$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "INSTANCIAPARTICIPACION": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "INSTRUMENTO_FINANCIERO.CUENTA_AHORROS.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "INSTRUMENTO_FINANCIERO.DINERO_MOVIL.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "INSTRUMENTO_FINANCIERO.OTRO_INSTRUMENTO_FINANCIERO.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "INSTRUMENTO_FINANCIERO.SEGURO_AGRO.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "INSTRUMENTO_FINANCIERO.SEGURO_VIDA.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "INSTRUMENTO_FINANCIERO.TARJETA_CREDITO.Seleccion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "ACCESOMEDICINA": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "actividad_ppal": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    132
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DIFICULTADACTIVIDAD.ind_discap_banarse.Seleccionar": {
+  "condicion": {
+   "DISCAPACIDAD": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DIFICULTADACTIVIDAD.ind_discap_entender.Seleccionar": {
+  "condicion": {
+   "DISCAPACIDAD": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DIFICULTADACTIVIDAD.ind_discap_hablar.Seleccionar": {
+  "condicion": {
+   "DISCAPACIDAD": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DIFICULTADACTIVIDAD.ind_discap_moverse.Seleccionar": {
+  "condicion": {
+   "DISCAPACIDAD": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DIFICULTADACTIVIDAD.ind_discap_oir.Seleccionar": {
+  "condicion": {
+   "DISCAPACIDAD": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DIFICULTADACTIVIDAD.ind_discap_salir.Seleccionar": {
+  "condicion": {
+   "DISCAPACIDAD": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DIFICULTADACTIVIDAD.ind_discap_ver.Seleccionar": {
+  "condicion": {
+   "DISCAPACIDAD": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DISCAPACIDAD": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DISTANCIAIPS": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DocAnverso": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": null,
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "DocFrontal": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": null,
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "fec_nacimiento": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^\\d{4}-\\d{2}-\\d{2}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "FecExpedicion": {
+  "condicion": {
+   "Edad": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^\\d{4}-\\d{2}-\\d{2}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "grado_alcanzado": {
+  "condicion": {
+   "niv_educativo": [
+    2,
+    5,
+    6,
+    7,
+    4,
+    0,
+    3
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    0
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "IDCONDICIONSEXUAL": {
+  "condicion": {
+   "Edad": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    621,
+    622,
+    623,
+    624,
+    625,
+    626
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "IDESTADOCIVIL": {
+  "condicion": {
+   "Edad": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "IDIDENTIDADGENERO": {
+  "condicion": {
+   "Edad": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    8,
+    7,
+    619,
+    620,
+    621
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "IDPARENTESCO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_estudia": {
+  "condicion": {
+   "Edad": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_ingr_pension.ind_ingr_pension.¿Cuánto recibió?": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130
+   ],
+   "ind_ingr_pension.ind_ingr_pension.Seleccione": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,6}|99999999)$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_ingr_remesa_exterior.ind_ingr_remesa_exterior.¿Cuánto recibió?": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    131
+   ],
+   "ind_ingr_remesa_exterior.ind_ingr_remesa_exterior.Seleccione": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,6}|99999999)$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_ingr_arriendos.ind_ingr_arriendos.¿Cuánto recibió?": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    132
+   ],
+   "ind_ingr_arriendos.ind_ingr_arriendos.Seleccione": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,6}|99999999)$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_otros_ingresos.ind_otros_ingresos.¿Cuánto recibió?": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    133
+   ],
+   "ind_otros_ingresos.ind_otros_ingresos.Seleccione": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,6}|99999999)$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_ingr_arriendos.ind_ingr_arriendos.Seleccione": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    134
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_ingr_estado.ind_ingr_estado.¿Cuánto recibió?": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    135
+   ],
+   "ind_ingr_estado.ind_ingr_estado.Seleccione": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,6}|99999999)$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_ingr_estado.ind_ingr_estado.Seleccione": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    136
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_ingr_pension.ind_ingr_pension.Seleccione": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    137
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_ingr_remesa_exterior.ind_ingr_remesa_exterior.Seleccione": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    138
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_ingr_remesa_pais.ind_ingr_remesa_pais.¿Cuánto recibió?": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    139
+   ],
+   "ind_ingr_remesa_pais.ind_ingr_remesa_pais.Seleccione": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,6}|99999999)$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_ingr_remesa_pais.ind_ingr_remesa_pais.Seleccione": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    140
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_leer_escribir": {
+  "condicion": {
+   "Edad": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ind_otros_ingresos.ind_otros_ingresos.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "nacionalidad": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Colombiana",
+    "Venezolana",
+    "Ecuatoriana",
+    "Española",
+    "Otra"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "niv_educativo": {
+  "condicion": {
+   "ind_leer_escribir": [
+    1,
+    2
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    0
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "num_documento": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{5,11})$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "num_sem_buscando": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    139
+   ],
+   "actividad_ppal": [
+    "Buscando trabajo"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{0,2})$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "otra_actividad": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    139
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "pri_apellido": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "pri_nombre": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "representante": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "sector_economico_actividad_ppal": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    139
+   ],
+   "actividad_ppal": [
+    "Trabajando"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "seg_apellido": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": true,
+  "excluida_PTA": true
+ },
+ "seg_nombre": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": true,
+  "excluida_PTA": true
+ },
+ "sexo_persona": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "tip_documento": {
+  "condicion": {
+   "nacionalidad": [
+    "Colombiana",
+    "Venezolana",
+    "Ecuatoriana",
+    "Española",
+    "Otra"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "tip_empleado_actividad_ppal": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    139
+   ],
+   "actividad_ppal": [
+    "Trabajando"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "tip_empleado_otra_actividad": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    139
+   ],
+   "otra_actividad": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "tip_seg_social": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3,
+    0,
+    9
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TIPO_MEDICINA": {
+  "condicion": {
+   "ACCESOMEDICINA": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,30}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "vlr_ingr_Cosecha": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    139
+   ],
+   "ZONA": [
+    2,
+    3
+   ],
+   "tip_empleado_otra_actividad": [
+    "Jornalero o peón"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,6}|99999999)$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "vlr_ingr_honorarios_otra_actividad": {
+  "condicion": {
+   "otra_actividad": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,7}|999999999)$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "vlr_ingr_salario_actividad_ppal": {
+  "condicion": {
+   "Edad": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    139
+   ],
+   "actividad_ppal": [
+    "Trabajando"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^(0|[1-9]\\d{0,7}|999999999)$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "INTERACCIÓN.Amigos": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,30}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "INTERACCIÓN.Familiares": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,30}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "INTERACCIÓN.Vecinos": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,30}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "LENGUANATIVA": {
+  "condicion": {
+   "IDTETNIA": [
+    12
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "LOCALIDAD": {
+  "condicion": {
+   "ZONA": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{4,6})$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "LOCALIZACION_HOGAR": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^-?([0-9](\\.[0-9]+)?|0?\\.[0-9]+|\\d+\\.\\d+),-?([0-9](\\.[0-9]+)?|0?\\.[0-9]+|\\d+\\.\\d+)$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "METODO_USA_MANEJO_PLAGAS_ANIMALES": {
+  "condicion": {
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de ave.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de cerdo.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de chivo.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Carne de cuy.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Huevos.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Leche o derivados lácteos.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Pesca o piscicultura.SELECCIÓN": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,50}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "METODO_USA_MANEJO_PLAGAS_CULTIVOS": {
+  "condicion": {
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Aromáticas/medicinales/condimentos\\t.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Cereales.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Frutales de ciclo corto.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Frutales de tardío rendimiento.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Hortalizas.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Leguminosas.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Musáceas.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Tubérculos/raíces.SELECCIÓN": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,50}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "METROS_UNIDAD_PRODUCTIVA": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{0,7}|999999999)$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "MIEMBRO_ORGANIZACIONES. Asociaciones con fines lúdicos": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Es miembro y participa activamente",
+    "Es miembro pero no participa activamente ___",
+    "No es miembro"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "MIEMBRO_ORGANIZACIONES. Asociaciones de víctimas": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Es miembro y participa activamente",
+    "Es miembro pero no participa activamente ___",
+    "No es miembro"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "MIEMBRO_ORGANIZACIONES.Asociaciones productivas ": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Es miembro y participa activamente",
+    "Es miembro pero no participa activamente ___",
+    "No es miembro"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "MIEMBRO_ORGANIZACIONES.Estructura de gobierno propio": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Es miembro y participa activamente",
+    "Es miembro pero no participa activamente ___",
+    "No es miembro"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "MIEMBRO_ORGANIZACIONES.Guardia indigena/Cimarrona": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Es miembro y participa activamente",
+    "Es miembro pero no participa activamente ___",
+    "No es miembro"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "MIEMBRO_ORGANIZACIONES.Instancias de participación ": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Es miembro y participa activamente",
+    "Es miembro pero no participa activamente ___",
+    "No es miembro"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "MIEMBRO_ORGANIZACIONES.Juntas de Acción Comunal": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Es miembro y participa activamente",
+    "Es miembro pero no participa activamente ___",
+    "No es miembro"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "MIEMBRO_ORGANIZACIONES.Otros tipos de asociaciones": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Es miembro y participa activamente",
+    "Es miembro pero no participa activamente ___",
+    "No es miembro"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "NOMBREENCUESTADOR": {
+  "condicion": null,
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "NOMBREPROYECTO": {
+  "condicion": null,
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "observaciones": {
+  "condicion": {
+   "si_observaciones": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "OTRA_VEREDA": {
+  "condicion": {
+   "IDVEREDA": [
+    1
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "OTRO_ALIMENTOS_PRODUCE_ACTUALMENTE": {
+  "condicion": {
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Otro.SELECCIÓN": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "OTRO_GUSTARIA_PRODUCIR": {
+  "condicion": {
+   "GUSTARIA_PRODUCIR.q) Otro.SELECCIÓN": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "OTROSIPARTICIPACIONACTCOL": {
+  "condicion": {
+   "SIPARTICIPACIONACTCOL": [
+    "Otro"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "OtroTelefono": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPACION_COMUNITARIA.Amigos": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPACION_COMUNITARIA.Colegas o grupos de compañeros de trabajo": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPACION_COMUNITARIA.Familiares": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPACION_COMUNITARIA.Vecinos": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPACION_PROCESOS_ELECCION.Asamblea": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPACION_PROCESOS_ELECCION.Elección de iniciativa de fortalecimiento comunitario": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPACION_PROCESOS_ELECCION.Elección de líderes": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPACION_PROCESOS_ELECCION.Elección de línea de inversión social del proyecto ": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPACIONACTCOL": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPACIONOTRO": {
+  "condicion": {
+   "QUEINSTANCIAPARTICIPACION": [
+    "Otros"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPLURAL.Adultos mayores.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPLURAL.Mujeres.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPLURAL.Niños y adolescentes.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTICIPLURAL.Personas en condicion de discapacidad.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PARTNUEVAGEN": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PERCEPCIONVALORES.Confianza.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Bajo",
+    "Medio",
+    "Alto"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PERCEPCIONVALORES.Cooperación.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Bajo",
+    "Medio",
+    "Alto"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PERCEPCIONVALORES.Respeto.Seleccione": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Bajo",
+    "Medio",
+    "Alto"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PORQUENOINTERESADO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "NO"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,300}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PROCESOS_AGREGACION_VALOR_PRODUCTOS": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Selección",
+    "Lavado",
+    "Empaque o embalaje",
+    "Almacenamiento",
+    "Transformación"
+   ],
+   "Tipo": "list"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PRODUCCION_VENDE/DONA/INTERCAMBIA": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "La vereda - Corregimiento",
+    "Municipio",
+    "Departamento",
+    "Mercado Nacional",
+    "Mercado Internacional",
+    "Autoconsumo"
+   ],
+   "Tipo": "list"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PRODUCTO-SERVICIO-ASOCIACION": {
+  "condicion": {
+   "tipo_organizacion": [
+    "Asociación de productores o comerciantes "
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PROMEDIO_VOLUMEN_MENSUAL_CANTIDAD": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{0,5}|9999999)$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "PROMEDIO_VOLUMEN_MENSUAL_UNIDAD_MEDIDA": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "QUE_HACE_EXCEDENTES_PRODUCCION_AUTOCONSUMO": {
+  "condicion": {
+   "GENERA_EXCEDENTES": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Los vende",
+    "Los regala",
+    "Los usa de abono",
+    "Los intercambia",
+    "Alimenta a los animales",
+    "Los guarda para semillas",
+    "Los procesa o transforma",
+    "Los bota"
+   ],
+   "Tipo": "list"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "QUEINSTANCIAPARTICIPACION": {
+  "condicion": {
+   "INSTANCIAPARTICIPACION": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Junta de acción",
+    "Comites de participación",
+    "Consejos Locales",
+    "Asambleas",
+    "Encuentros",
+    "Mesas",
+    "Otros"
+   ],
+   "Tipo": "list"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "RAZON_NO_REGISTRO_COSTOS/INGRESOS/GASTOS": {
+  "condicion": {
+   "REGISTRO_COSTOS/INGRESOS/GASTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "RAZON_PARA_NO_HACERLO": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "RAZON_PARA_NO_HACERLO_CUAL": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "NO"
+   ],
+   "RAZON_PARA_NO_HACERLO": [
+    "OTRO"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": true,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "REAFIRMACIONIDCULTO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "RECURSOS_AMBIENTALES": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Bosque en pie o en proceso de restauración",
+    "Fuentes naturales de agua como río, arroyo, lago, pozo, nacedero",
+    "Presencia de flora y fauna endémica o representativa",
+    "Presencia de áreas de importancia cultural, espiritual o de recreación"
+   ],
+   "Tipo": "list"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "REDES_SOCIALES": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "REGISTRO_COSTOS/INGRESOS/GASTOS": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "SEMILLA": {
+  "condicion": {
+   "USTED_O_INTEG_PRODUCE_ALIMENTOS": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "SERVICIOS_PUBLICOS_PROYECTO/NEGOCIO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Energía eléctrica",
+    "Alcantarillado",
+    "Gas natural",
+    "Recolección de basuras",
+    "Acueducto",
+    "Telefonía o Internet",
+    "Energía solar"
+   ],
+   "Tipo": "list"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "si_observaciones": {
+  "condicion": null,
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": false
+ },
+ "SIPARTICIPACIONACTCOL": {
+  "condicion": {
+   "PARTICIPACIONACTCOL": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Eventos deportivos",
+    "Eventos culturales, bazares y fiestas",
+    "Asambleas",
+    "Mingas, jornadas comunitarias o convites, fiestas tradicionales",
+    "Reuniones de padres en el colegio o escuela",
+    "Actos de reparación simbólica",
+    "Encuentros  religiosos"
+   ],
+   "Tipo": "list"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "SU_PROYECTO_NEGOCIO_ES": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TAMANO_PREDIO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TELEFONO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^[36]\\d{9}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TERRITORIOCOL": {
+  "condicion": {
+   "IDCOMUNIDADHABITA": [
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^([1-9]\\d{3})$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TIEMPO_FUNCIONAMIENTO_NEGOCIO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TieneEmail": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TIPO_ABONO_USA_ALIMENTOS_AUTOCONSUMO": {
+  "condicion": {
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Aromáticas/medicinales/condimentos\\t.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Cereales.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Frutales de ciclo corto.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Frutales de tardío rendimiento.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Hortalizas.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Leguminosas.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Musáceas.SELECCIÓN": [
+    "SI"
+   ],
+   "ALIMENTOS_PRODUCE_ACTUALMENTE.Tubérculos/raíces.SELECCIÓN": [
+    "SI"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "tipo_organizacion": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TIPO_RELACION_PREDIO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TIPO_RELACION_PREDIO_CUAL": {
+  "condicion": {
+   "TIPO_RELACION_PREDIO": [
+    "Otro"
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TipoEstructura": {
+  "condicion": {
+   "ZONA": [
+    1,
+    2
+   ],
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TIPOS_BIENES_SERVICIOS": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "Agricultura, ganadería, caza, silvicultura y pesca",
+    "Explotación de minas y canteras",
+    "Industrias manufactureras",
+    "Suministro de electricidad, gas, vapor, y aire acondicionado",
+    "Distribución de agua; evacuación y tratamiento de aguas residuales, gestión de desechos y actividades de saneamiento ambiental",
+    "Construcción",
+    "Comercio al por mayor y al por menor; reparación de vehículos automotores y motocicletas",
+    "Transporte y almacenamiento",
+    "Alojamiento y servicios de comida",
+    "Información y comunicaciones",
+    "Actividades financieras y de seguros",
+    "Actividades inmobiliarias",
+    "Actividades profesionales, científicas y técnicas",
+    "Actividades de servicios administrativos y de poyo",
+    "Administración pública y defensa; planes de seguridad social de afiliación obligatoria",
+    "Educación",
+    "Actividades de atención de la salud humana y de asistencia social",
+    "Actividades artísticas, de entretenimiento y recreación",
+    "Otras actividades de servicios",
+    "Actividades de los hogares en calidad de empleadores; actividades no diferenciadas de los hogares individuales como productores de bienes y servicios para uso propio",
+    "Actividades de organizaciones y entidades extraterritoriales"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TOMA_DECISIONES": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TRANSCONOCIMIENT": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "TRASLADO_PRODUCTO/SERVICIO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "USTED_O_INTEG_PRODUCE_ALIMENTOS": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    "SI",
+    "NO"
+   ],
+   "Tipo": "str"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "VALOR_PROMEDIO_PROYECTO/NEGOCIO": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": "^.{3,100}$",
+   "Tipo": "regex"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "ZONA": {
+  "condicion": {
+   "DESEAPARTICIPAR": [
+    "SI"
+   ]
+  },
+  "valores": {
+   "valor": [
+    1,
+    2,
+    3
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ }
+}
