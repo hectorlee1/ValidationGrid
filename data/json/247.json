@@ -1,4 +1,19 @@
 {
+ "id": {
+  "condicion": null,
+  "valores": null,
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "idencuesta": {
+  "condicion": null,
+  "valores": null,
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+{
   "fechadiligenciaencuesta": {
     "condicion": null,
     "valores": null,
