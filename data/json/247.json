@@ -560,17 +560,17 @@
   "condicion": null,
   "valores": {
    "valor": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9
+    "RC",
+    "TI",
+    "CC",
+    "CE",
+    "DNI",
+    "PAS",
+    "SAL",
+    "PEP",
+    "PPT"
    ],
-   "Tipo": "int"
+   "Tipo": "str"
   },
   "iand": false,
   "opcional": false,
@@ -587,11 +587,11 @@
   "condicion": null,
   "valores": {
    "valor": [
-    1,
-    2,
-    3
+    "M",
+    "F",
+    "I"
    ],
-   "Tipo": "int"
+   "Tipo": "str"
   },
   "iand": false,
   "opcional": false,
@@ -778,25 +778,8 @@
   "opcional": false,
   "excluida_PTA": true
  },
- "DISCAPACIDAD": {
-  "condicion": null,
-  "valores": {
-   "valor": [
-    "SI",
-    "NO"
-   ],
-   "Tipo": "str"
-  },
-  "iand": false,
-  "opcional": false,
-  "excluida_PTA": true
- },
  "DIFICULTADACTIVIDAD.ind_discap_ver.Seleccionar": {
-  "condicion": {
-   "DISCAPACIDAD": [
-    "SI"
-   ]
-  },
+  "condicion": null,
   "valores": {
    "valor": [
     1,
@@ -809,11 +792,7 @@
   "excluida_PTA": true
  },
  "DIFICULTADACTIVIDAD.ind_discap_oir.Seleccionar": {
-  "condicion": {
-   "DISCAPACIDAD": [
-    "SI"
-   ]
-  },
+  "condicion": null,
   "valores": {
    "valor": [
     1,
@@ -826,11 +805,7 @@
   "excluida_PTA": true
  },
  "DIFICULTADACTIVIDAD.ind_discap_hablar.Seleccionar": {
-  "condicion": {
-   "DISCAPACIDAD": [
-    "SI"
-   ]
-  },
+  "condicion": null,
   "valores": {
    "valor": [
     1,
@@ -843,11 +818,7 @@
   "excluida_PTA": true
  },
  "DIFICULTADACTIVIDAD.ind_discap_moverse.Seleccionar": {
-  "condicion": {
-   "DISCAPACIDAD": [
-    "SI"
-   ]
-  },
+  "condicion": null,
   "valores": {
    "valor": [
     1,
@@ -860,11 +831,7 @@
   "excluida_PTA": true
  },
  "DIFICULTADACTIVIDAD.ind_discap_banarse.Seleccionar": {
-  "condicion": {
-   "DISCAPACIDAD": [
-    "SI"
-   ]
-  },
+  "condicion": null,
   "valores": {
    "valor": [
     1,
@@ -877,11 +844,7 @@
   "excluida_PTA": true
  },
  "DIFICULTADACTIVIDAD.ind_discap_salir.Seleccionar": {
-  "condicion": {
-   "DISCAPACIDAD": [
-    "SI"
-   ]
-  },
+  "condicion": null,
   "valores": {
    "valor": [
     1,
@@ -894,9 +857,40 @@
   "excluida_PTA": true
  },
  "DIFICULTADACTIVIDAD.ind_discap_entender.Seleccionar": {
+  "condicion": null,
+  "valores": {
+   "valor": [
+    1,
+    2
+   ],
+   "Tipo": "int"
+  },
+  "iand": false,
+  "opcional": false,
+  "excluida_PTA": true
+ },
+ "DIFICULTADACTIVIDAD.ind_discap_ninguna.Seleccionar": {
   "condicion": {
-   "DISCAPACIDAD": [
-    "SI"
+   "DIFICULTADACTIVIDAD.ind_discap_ver.Seleccionar": [
+    2
+   ],
+   "DIFICULTADACTIVIDAD.ind_discap_oir.Seleccionar": [
+    2
+   ],
+   "DIFICULTADACTIVIDAD.ind_discap_hablar.Seleccionar": [
+    2
+   ],
+   "DIFICULTADACTIVIDAD.ind_discap_moverse.Seleccionar": [
+    2
+   ],
+   "DIFICULTADACTIVIDAD.ind_discap_banarse.Seleccionar": [
+    2
+   ],
+   "DIFICULTADACTIVIDAD.ind_discap_salir.Seleccionar": [
+    2
+   ],
+   "DIFICULTADACTIVIDAD.ind_discap_entender.Seleccionar": [
+    2
    ]
   },
   "valores": {
@@ -906,7 +900,7 @@
    ],
    "Tipo": "int"
   },
-  "iand": false,
+  "iand": true,
   "opcional": false,
   "excluida_PTA": true
  },
@@ -2178,7 +2172,7 @@
   },
   "valores": {
    "valor": [
-    "Selección",
+    "Seleccion",
     "Lavado",
     "Empaque o embalaje",
     "Almacenamiento",
